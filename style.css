@@ -1,0 +1,93 @@
+/* Aturan umum untuk seluruh halaman */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+}
+
+/* Mengatur judul utama */
+h1 {
+    font-size: 2.5em;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Mengatur tampilan form */
+form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 500px;
+}
+
+/* Mengatur elemen label */
+label {
+    font-size: 1.2em;
+    margin-bottom: 5px;
+    display: block;
+}
+
+/* Mengatur input dan select field */
+input[type="text"],
+select,
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    font-size: 1em;
+}
+
+/* Mengatur textarea */
+textarea {
+    resize: vertical;
+}
+
+/* Mengatur tombol submit */
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.1em;
+    cursor: pointer;
+    width: 100%;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+/* Mengatur tampilan data pemesanan */
+h2 {
+    font-size: 1.8em;
+    margin-top: 30px;
+    color: #333;
+}
+
+pre {
+    background-color: #f9f9f9;
+    padding: 15px;
+    border-radius: 8px;
+    font-family: monospace;
+    white-space: pre-wrap; /* Memungkinkan teks panjang untuk membungkus */
+    word-wrap: break-word; /* Memecah kata yang terlalu panjang */
+}
+
+/* Mengatur tampilan ongkos kirim */
+#shippingCost {
+    font-size: 1.2em;
+    margin-top: 20px;
+    font-weight: bold;
+}
